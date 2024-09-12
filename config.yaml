@@ -1,0 +1,12 @@
+training:
+    epoch: 3
+    batch: 32
+    checkpoint: './checkpoints/chkpt'
+    model_save_path: r"E:\akash singh\GFA-CNN-new\GFA-CNN-master\GFA-CNN-master\save_model_new"
+
+net:
+    input_img_size: 224 # same input size of VGG16
+
+dataset:
+    #name of the dataset, (replayattack, nuaa, ...)
+    name: 'MSU-MSFD'
